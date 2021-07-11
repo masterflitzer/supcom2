@@ -1,0 +1,27 @@
+.divicon {
+	width: 64px;
+	height: 64px;
+	position: fixed;
+	padding: 0%;
+	margin: 5% auto auto 5%;
+	float: left;
+	z-index: 10;
+}
+.imgicon {
+	width: 32px;
+	height: 32px;
+	transition-property: width, height;
+    transition-duration: 1s;
+	transition-timing-function: ease;
+	transition-delay: 0s;
+	position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.imgicon:hover {
+	width: 64px;
+	height: 64px;
+}

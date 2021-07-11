@@ -1,0 +1,87 @@
+main {
+	color: black;
+	text-align: left;
+	line-height: 1.2;
+}
+main h1, h2, h3 {
+	font-variant: small-caps;
+	text-align: center;
+}
+main h4, h5, h6 {
+	font-variant: small-caps;
+	text-align: left;
+}
+main ol li {
+	overflow: auto;
+}
+.img {
+	float: right;
+	position: relative;
+	padding: 0%;
+	margin: 0.75%;
+	vertical-align: middle;
+	z-index: 7;
+}
+ul.normal-list {
+	list-style-type: square;
+	list-style-position: outside;
+}
+ol.normal-list {
+	/*list-style-type: decimal;*/
+	/*list-style-position: outside;*/
+	list-style-type: none;
+	counter-reset: item;
+	margin-bottom: 1.5em;
+	padding: 0;
+}
+ol.normal-list li {
+	text-indent: -2em;
+	counter-increment: item;
+	margin: 0;
+	padding-left: 2em;
+}
+ol.normal-list li:before {
+	display: inline-block;
+	font-weight: normal;
+	content: counter(item) ".";
+	text-align: right;
+	width: 1.75em;
+	padding-right: 0em;
+}
+table, th, td {
+	border-style: hidden;
+}
+table {
+	border-collapse: collapse;
+	width: 90%;
+	position: relative;
+    margin: 0% auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+th, td {
+	padding: 0% 1%;
+	text-align: left;
+}
+th {
+	font-weight: normal;
+	font-variant: small-caps;
+}
+address a:link {
+    color: black;
+	text-decoration: none;
+}
+address a:visited {
+    color: black;
+	text-decoration: none;
+}
+address a:hover {
+    color: black;
+	text-decoration: underline;
+}
+address a:active {
+    color: black;
+	text-decoration: underline;
+}
